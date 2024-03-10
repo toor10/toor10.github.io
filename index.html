@@ -6,34 +6,42 @@
 <title>INDEX</title>
 <script>
 function cambiaLingua(lingua) {
-    var titolo;
+    var titolo, sottotitolo;
     switch(lingua) {
         case 'it':
             titolo = "Benvenuto nel Sito di toor10!";
+            sottotitolo = "Sito in Costruzione!";
             break;
         case 'en':
             titolo = "Welcome to toor10's Site!";
+            sottotitolo = "Under construction!";
             break;
         case 'fr':
-            titolo = "traduci te";
+            titolo = "Bienvenue sur le site toor10 !";
+            sottotitolo = "En cours de construction!";
             break;
         case 'de':
-            titolo = "traduci te";
+            titolo = "Willkommen auf der toor10-Website!";
+            sottotitolo = "Bauarbeiten im Gange!";
             break;
         default:
             titolo = "Benvenuto nel Sito di toor10!";
+            sottotitolo = "Sito in Costruzione!";
     }
     document.getElementById("titolo").innerText = titolo;
+    document.getElementById("sottotitolo").innerText = sottotitolo;
 }
 </script>
 </head>
 <body style="background-color:lightskyblue">
 <font face="Arial">
+    <CENTER>
 <h1 id="titolo">Benvenuto nel Sito di toor10!</h1>
+        <h2 id="sottotitolo">Sito in Costruzione!</h2>
   <marquee hspace="100"> Seleziona La Tua Lingua!     Select Your Language!     Choisissez votre langue!     Wähle deine Sprache!     </marquee>
-<button onclick="cambiaLingua('it')">IT</button>
-<button onclick="cambiaLingua('en')">EN</button>
+<button onclick="cambiaLingua('it')">ITA</button>
+<button onclick="cambiaLingua('en')">ENG</button>
 <button onclick="cambiaLingua('fr')">FR</button>
 <button onclick="cambiaLingua('de')">DE</button>
-</body>
+</CENTER></body>
 </html>
