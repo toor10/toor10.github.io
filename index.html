@@ -1,8 +1,39 @@
-<head><TITLE>index</TITLE></head>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INDEX</title>
+<script>
+function cambiaLingua(lingua) {
+    var titolo;
+    switch(lingua) {
+        case 'it':
+            titolo = "Benvenuto nel Sito di toor10!";
+            break;
+        case 'en':
+            titolo = "Welcome to toor10's Site!";
+            break;
+        case 'fr':
+            titolo = "traduci te";
+            break;
+        case 'de':
+            titolo = "traduci te";
+            break;
+        default:
+            titolo = "Benvenuto nel Sito di toor10!";
+    }
+    document.getElementById("titolo").innerText = titolo;
+}
+</script>
+</head>
 <body style="background-color:lightskyblue">
 <font face="Arial">
-<h1 align="center"> Welcome to toor10's Site! </h1>
-<h1 align="center"> Benvenuto nel Sito di toor10! </h1>
-
-<marquee hspace="100"> Seleziona La Tua Lingua!     Select Your Language!     Choisissez votre langue!     Wähle deine Sprache!     </marquee>
-
+<h1 id="titolo">Benvenuto nel Sito di toor10!</h1>
+  <marquee hspace="100"> Seleziona La Tua Lingua!     Select Your Language!     Choisissez votre langue!     Wähle deine Sprache!     </marquee>
+<button onclick="cambiaLingua('it')">IT</button>
+<button onclick="cambiaLingua('en')">EN</button>
+<button onclick="cambiaLingua('fr')">FR</button>
+<button onclick="cambiaLingua('de')">DE</button>
+</body>
+</html>
