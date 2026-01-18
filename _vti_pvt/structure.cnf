@@ -1,29 +1,28 @@
 3.0.0.507
-1028
+1019
 1000,index.htm,0,Home-Page di toor10,0,1751986887,1
 vti_globalpage:BW|true
-1008,immagini.htm,0,Immagini,1000,1768664205,1
+1001,immagini.htm,0,Immagini,1000,1768664205,1
 vti_nonnavpage:BW|false
-1007,download.htm,0,Downloads,1000,1768664205,1
+1002,download.htm,0,Downloads,1000,1768664205,1
 vti_nonnavpage:BW|false
-1010,progetti.htm,0,Progetti,1000,1768664205,0
-1021,siti_cons.htm,0,Siti Consigliati,1000,1768607269,0
-1011,banner.htm,0,Banner,1000,1751988093,0
-1022,guestbook.htm,0,GuestBook,1000,1768664205,0
-1018,altro/map_sito.htm,0,Mappa del Sito,1000,1768610793,0
-1023,prova_pagina_bloccata.htm,0,Anteprima Progetti (locked),1000,1768667429,1
+1003,progetti.htm,0,Progetti,1000,1768664205,0
+1004,siti_cons.htm,0,Siti Consigliati,1000,1768607269,0
+1005,banner.htm,0,Banner,1000,1751988093,0
+1006,guestbook.htm,0,GuestBook,1000,1768664205,0
+1007,altro/map_sito.htm,0,Mappa del Sito,1000,1768610793,0
+1008,prova_pagina_bloccata.htm,0,Anteprima Progetti (locked),1000,1768732513,1
 vti_nonnavpage:BW|true
-1024,prova_pagina_bloccata-protected.htm,1,prova_pagina_bloccata-protected.htm,1000,1768666278,1
+1009,altro/copyright.htm,0,Copyright,1000,1768672735,1
 vti_nonnavpage:BW|true
-1026,altro/copyright.htm,0,Copyright,1000,1768672735,1
+1010,altro/under_cons.htm,0,In Costruzione!,1000,1768672735,1
 vti_nonnavpage:BW|true
-1027,altro/under_cons.htm,0,In Costruzione!,1000,1768672735,1
+1011,altro/404.htm,0,Errore 404,1000,1768672735,1
 vti_nonnavpage:BW|true
-1025,altro/404.htm,0,Errore 404,1000,1768672735,1
-vti_nonnavpage:BW|true
-1012,progetti/arduino.htm,0,Arduino,1010,1768606569,0
-1013,progetti/excel.htm,0,Excel,1010,1768606569,0
-1014,progetti/vb.htm,0,Visual Basic,1010,1768606569,0
-1015,progetti/diy.htm,0,D.I.Y. (Fai-da-Te),1010,1768606569,0
-1019,progetti/arduino/augtv/augtv.htm,0,Tanti Auguri in TV,1012,1768606645,0
-1020,progetti/arduino/augtv/genera_augtv.htm,0,Genera Codice Personalizzato,1019,1768671728,0
+1012,progetti/arduino.htm,0,Arduino,1003,1768606569,0
+1013,progetti/excel.htm,0,Excel,1003,1768606569,0
+1014,progetti/vb.htm,0,Visual Basic,1003,1768606569,0
+1015,progetti/python.htm,0,Python,1003,1768733117,0
+1016,progetti/diy.htm,0,D.I.Y. (Fai-da-Te),1003,1768732725,0
+1017,progetti/arduino/augtv/augtv.htm,0,Tanti Auguri in TV,1012,1768606645,0
+1018,progetti/arduino/augtv/genera_augtv.htm,0,Genera Codice Personalizzato,1017,1768671728,0
