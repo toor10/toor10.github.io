@@ -1,0 +1,33 @@
+	ImgBurn (v2.5.8.0)
+
+
+
+This is a portable application customized for Lupo PenSuite.
+If you want other applications: http://www.lupopensuite.com/
+
+Original Software:
+http://www.imgburn.com/
+
+
+-------------------------------------------------------------------
+
+UPDATE INFO:
+You don't have to copy old settings.
+
+USEFUL LINKS:
+http://forum.imgburn.com/index.php?showtopic=59
+
+
+-------------------------------------------------------------------
+
+Details of this package:
+ - original software included
+ - files recompressed using UPX
+ - some other modifications maden
+
+Details of license:
+ - original software follow its license
+ - this package follow Creative Commons license (By-SA 3.0)
+
+
+-------------------------------------[ By Lupo73 ]-----------------

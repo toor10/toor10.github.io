@@ -1,0 +1,6 @@
+couldn't find/open config directory './lgames'
+attempting to create it... ok
+./lgames/lbreakout2.conf: file not found
+Highscore chart doesn't exist in '.'... creating new one.
+ERROR: cannot open slot 0!
+ERROR: cannot open slot 0!

@@ -1,0 +1,31 @@
+	Gui Checkers (v1.05+)
+
+
+
+This is a portable application customized for Lupo PenSuite.
+If you want other applications: http://www.lupopensuite.com/
+
+Original Software:
+http://www.3dkingdoms.com/checkers.htm
+
+
+-------------------------------------------------------------------
+
+How to update:
+You can use the "Manage Apps" feature of the "Suite Manager" or
+manually copy files and folders listed in "LupoApp.ini".
+
+
+-------------------------------------------------------------------
+
+Details of this package:
+ - original software included
+ - files recompressed using UPX
+ - some other modifications maden
+
+Details of license:
+ - original software follow its license
+ - this package follow Creative Commons license (By-SA 3.0)
+
+
+-------------------------------------[ By Lupo73 ]-----------------
