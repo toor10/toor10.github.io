@@ -23,7 +23,7 @@ vti_categories:VR|Travel Expense\\ Report Business Competition Goals/Objectives 
 vti_missingoverlaylabels:VX|
 vti_approvalapproved:SR|Approved
 vti_approvaldenied:SR|Denied
-vti_defaultcharset:SR|none
+vti_defaultcharset:SR|utf-8
 vti_autorecalc:IX|1
 vti_navbuttonuplabel:SR|Indietro
 vti_disableautoimgsizeexts:SX|.asp
