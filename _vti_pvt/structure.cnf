@@ -1,5 +1,5 @@
 3.0.0.507
-1031
+1040
 1000,index.htm,0,Home-Page di toor10,0,1751986887,1
 vti_globalpage:BW|true
 1001,immagini.htm,0,Immagini,1000,1768664205,1
@@ -7,50 +7,66 @@ vti_nonnavpage:BW|false
 1002,download.htm,0,Downloads,1000,1768664205,1
 vti_nonnavpage:BW|false
 1003,progetti.htm,0,Progetti,1000,1768664205,0
-1004,siti_cons.htm,0,Siti Consigliati,1000,1768607269,0
-1005,banner.htm,0,Banner,1000,1788051134,1
+1004,tutorial.htm,0,Tutorial,1000,1789319485,0
+1005,siti_cons.htm,0,Siti Consigliati,1000,1789319485,0
+1006,guestbook.htm,0,GuestBook,1000,1789319402,0
+1007,altro/altro.htm,0,altro,1000,1789319465,1
 vti_nonnavpage:BW|true
-1006,guestbook.htm,0,GuestBook,1000,1768664205,0
-1007,altro/map_sito.htm,0,Mappa del Sito,1000,1788051185,1
+1008,progetti/arduino.htm,0,Arduino,1003,1768606569,0
+1009,progetti/esp32.htm,0,ESP32,1003,1788052211,1
 vti_nonnavpage:BW|true
-1008,prova_pagina_bloccata.htm,0,Anteprima Progetti (locked),1000,1768732513,1
+1010,progetti/vb.htm,0,Visual Basic,1003,1788052211,1
 vti_nonnavpage:BW|true
-1009,altro/copyright.htm,0,Copyright,1000,1768672735,1
+1011,progetti/python.htm,0,Python,1003,1789431912,1
 vti_nonnavpage:BW|true
-1010,altro/under_cons.htm,0,In Costruzione!,1000,1768672735,1
+1012,progetti/diy.htm,0,D.I.Y. (Fai-da-Te),1003,1780140347,0
+1013,progetti/microsoft_office.htm,0,Microsoft Office,1003,1782405674,1
 vti_nonnavpage:BW|true
-1011,404.htm,0,Errore 404,1000,1768735507,1
+1014,tutorial/acquisire_minidv.htm,0,Acquisire MiniDV,1004,1789431912,1
 vti_nonnavpage:BW|true
-1012,progetti/arduino.htm,0,Arduino,1003,1768606569,0
-1013,progetti/esp32.htm,0,ESP32,1003,1788052211,1
+1015,tutorial/acquisire_vhs.htm,0,Acquisire VHS,1004,1789431912,1
 vti_nonnavpage:BW|true
-1014,progetti/vb.htm,0,Visual Basic,1003,1788052211,1
+1016,tutorial/rippare_dvd_video.htm,0,Rippare DVD Video,1004,1789431912,1
 vti_nonnavpage:BW|true
-1015,progetti/python.htm,0,Python,1003,1788052325,1
+1017,tutorial/rippare_cd_audio.htm,0,Rippare CD Audio,1004,1789432668,1
 vti_nonnavpage:BW|true
-1016,progetti/diy.htm,0,D.I.Y. (Fai-da-Te),1003,1780140347,0
-1017,progetti/microsoft_office.htm,0,Microsoft Office,1003,1782405674,1
+1018,tutorial/midi_in_vlc.htm,0,MIDI in VLC,1004,1789431912,1
 vti_nonnavpage:BW|true
-1018,progetti/arduino/augtv/augtv.htm,0,Tanti Auguri in TV,1012,1768606645,0
-1019,progetti/esp32/trasmauxbt.htm,0,Trasmettitore AUX-> BT,1013,1788052211,1
+1019,404.htm,0,Errore 404,1007,1789319465,1
 vti_nonnavpage:BW|true
-1020,progetti/diy/suonsuptel/suonsuptel.htm,0,Suon. Supplem. Tel.,1016,1782405312,0
-1021,progetti/office/word.htm,0,Word,1017,1782405674,1
+1020,altro/copyright.htm,0,Copyright,1007,1789319465,1
 vti_nonnavpage:BW|true
-1022,progetti/office/excel.htm,0,Excel,1017,1782405674,1
+1021,altro/under_cons.htm,0,In Costruzione!,1007,1789319465,1
 vti_nonnavpage:BW|true
-1023,progetti/office/powerpoint.htm,0,PowerPoint,1017,1782405674,1
+1022,altro/banner.htm,0,Banner,1007,1789319465,1
 vti_nonnavpage:BW|true
-1024,progetti/arduino/augtv/genera_augtv.htm,0,Genera Codice Personalizzato,1018,1768671728,0
-1025,progetti/office/new_page_1.htm,0,Cover Musicassetta,1021,1782405674,1
+1023,altro/map_sito.htm,0,Mappa del Sito,1007,1789319465,1
 vti_nonnavpage:BW|true
-1026,progetti/office/cover_cd.htm,0,Cover CD,1021,1782405674,1
+1024,progetti/arduino/augtv/augtv.htm,0,Tanti Auguri in TV,1008,1768606645,0
+1025,progetti/arduino/termoclock/termoclock.htm,0,Termoigrometro,1008,1789422799,0
+1026,progetti/esp32/trasmauxbt.htm,0,Trasmettitore AUX-> BT,1009,1788052211,1
 vti_nonnavpage:BW|true
-1027,progetti/office/cover_vhs.htm,0,Cover VHS,1021,1782405674,1
+1027,progetti/py/midi2arduino/midi2arduino.htm,0,MIDI2Arduino,1011,1789432708,1
 vti_nonnavpage:BW|true
-1028,progetti/office/dotx-word.htm,0,Modelli Office 2007 - Word,1021,1782405674,1
+1028,progetti/diy/suonsuptel/suonsuptel.htm,0,Suon. Supplem. Tel.,1012,1782405312,0
+1029,progetti/office/word.htm,0,Word,1013,1782405674,1
 vti_nonnavpage:BW|true
-1029,progetti/office/xltx-excel.htm,0,Modelli Office 2007 - Excel,1022,1782405674,1
+1030,progetti/office/excel.htm,0,Excel,1013,1782405674,1
 vti_nonnavpage:BW|true
-1030,progetti/office/potx-powerpoint.htm,0,Modelli Office 2007 - PowerPoint,1023,1782405674,1
+1031,progetti/office/powerpoint.htm,0,PowerPoint,1013,1782405674,1
+vti_nonnavpage:BW|true
+1032,prova_pagina_bloccata.htm,0,Anteprima Progetti (locked),1013,1789319402,1
+vti_nonnavpage:BW|true
+1033,progetti/arduino/augtv/genera_augtv.htm,0,Genera Codice Personalizzato,1024,1768671728,0
+1034,progetti/office/cover_mc.htm,0,Cover Musicassetta,1029,1789432750,1
+vti_nonnavpage:BW|true
+1035,progetti/office/cover_cd.htm,0,Cover CD,1029,1782405674,1
+vti_nonnavpage:BW|true
+1036,progetti/office/cover_vhs.htm,0,Cover VHS,1029,1782405674,1
+vti_nonnavpage:BW|true
+1037,progetti/office/dotx-word.htm,0,Modelli Office 2007 - Word,1029,1782405674,1
+vti_nonnavpage:BW|true
+1038,progetti/office/xltx-excel.htm,0,Modelli Office 2007 - Excel,1030,1782405674,1
+vti_nonnavpage:BW|true
+1039,progetti/office/potx-powerpoint.htm,0,Modelli Office 2007 - PowerPoint,1031,1782405674,1
 vti_nonnavpage:BW|true
