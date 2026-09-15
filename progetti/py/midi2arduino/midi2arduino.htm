@@ -1,0 +1,236 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<title>MIDI2Arduino</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+<meta name="Microsoft Theme" content="downtown 0111, default">
+<meta name="Microsoft Border" content="tl, default">
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'buttons/button1B.jpg',/*url*/'buttons/button1C.jpg',/*url*/'buttons/button1E.jpg',/*url*/'buttons/button1F.jpg',/*url*/'buttons/button21.jpg',/*url*/'buttons/button22.jpg',/*url*/'buttons/button16.jpg',/*url*/'buttons/button15.jpg')" background="../../../_themes/downtown/wertilea.jpg" bgcolor="#3366CC" text="#FFFF99" link="#FFCC00" vlink="#99CCCC" alink="#66FF00"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Garamond, Times New Roman, Times">
+<p align="center"><font size="6"><strong>
+<img src="_derived/midi2arduino.htm_cmp_downtown110_bnr.gif" width="600" height="60" border="0" alt="MIDI2Arduino"></strong></font><br>
+<script language="JavaScript"><!--
+MSFPhover = 
+  (((navigator.appName == "Netscape") && 
+  (parseInt(navigator.appVersion) >= 3 )) || 
+  ((navigator.appName == "Microsoft Internet Explorer") && 
+  (parseInt(navigator.appVersion) >= 4 ))); 
+function MSFPpreload(img) 
+{
+  var a=new Image(); a.src=img; return a; 
+}
+// --></script><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav1n=MSFPpreload("../../../_derived/home_cmp_downtown110_hbtn.gif"); MSFPnav1h=MSFPpreload("../../../_derived/home_cmp_downtown110_hbtn_a.gif"); }
+// --></script><a href="../../../index.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1h.src" onmouseout="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1n.src"><img src="../../../_derived/home_cmp_downtown110_hbtn.gif" width="140" height="60" border="0" alt="Home" align="middle" name="MSFPnav1"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav2n=MSFPpreload("../../../_derived/immagini.htm_cmp_downtown110_hbtn.gif"); MSFPnav2h=MSFPpreload("../../../_derived/immagini.htm_cmp_downtown110_hbtn_a.gif"); }
+// --></script><a href="../../../immagini.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2h.src" onmouseout="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2n.src"><img src="../../../_derived/immagini.htm_cmp_downtown110_hbtn.gif" width="140" height="60" border="0" alt="Immagini" align="middle" name="MSFPnav2"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav3n=MSFPpreload("../../../_derived/download.htm_cmp_downtown110_hbtn.gif"); MSFPnav3h=MSFPpreload("../../../_derived/download.htm_cmp_downtown110_hbtn_a.gif"); }
+// --></script><a href="../../../download.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3h.src" onmouseout="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3n.src"><img src="../../../_derived/download.htm_cmp_downtown110_hbtn.gif" width="140" height="60" border="0" alt="Downloads" align="middle" name="MSFPnav3"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav4n=MSFPpreload("../../../_derived/progetti.htm_cmp_downtown110_hbtn.gif"); MSFPnav4h=MSFPpreload("../../../_derived/progetti.htm_cmp_downtown110_hbtn_a.gif"); }
+// --></script><a href="../../../progetti.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4h.src" onmouseout="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4n.src"><img src="../../../_derived/progetti.htm_cmp_downtown110_hbtn.gif" width="140" height="60" border="0" alt="Progetti" align="middle" name="MSFPnav4"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav5n=MSFPpreload("../../../_derived/tutorial.htm_cmp_downtown110_hbtn.gif"); MSFPnav5h=MSFPpreload("../../../_derived/tutorial.htm_cmp_downtown110_hbtn_a.gif"); }
+// --></script><a href="../../../tutorial.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5h.src" onmouseout="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5n.src"><img src="../../../_derived/tutorial.htm_cmp_downtown110_hbtn.gif" width="140" height="60" border="0" alt="Tutorial" align="middle" name="MSFPnav5"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav6n=MSFPpreload("../../../_derived/siti_cons.htm_cmp_downtown110_hbtn.gif"); MSFPnav6h=MSFPpreload("../../../_derived/siti_cons.htm_cmp_downtown110_hbtn_a.gif"); }
+// --></script><a href="../../../siti_cons.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6h.src" onmouseout="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6n.src"><img src="../../../_derived/siti_cons.htm_cmp_downtown110_hbtn.gif" width="140" height="60" border="0" alt="Siti Consigliati" align="middle" name="MSFPnav6"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav7n=MSFPpreload("../../../_derived/guestbook.htm_cmp_downtown110_hbtn.gif"); MSFPnav7h=MSFPpreload("../../../_derived/guestbook.htm_cmp_downtown110_hbtn_a.gif"); }
+// --></script><a href="../../../guestbook.htm" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7h.src" onmouseout="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7n.src"><img src="../../../_derived/guestbook.htm_cmp_downtown110_hbtn.gif" width="140" height="60" border="0" alt="GuestBook" align="middle" name="MSFPnav7"></a></p>
+
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%"><!--mstheme--><font face="Garamond, Times New Roman, Times">
+<p>&nbsp;</p>
+
+<!--mstheme--></font></td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><!--mstheme--><font face="Garamond, Times New Roman, Times">
+<div align="center">
+&nbsp;<!--mstheme--></font><table border="1" width="500" height="31" bordercolordark="#000033" bordercolorlight="#000033">
+		<tr>
+			<td height="25" width="476"><!--mstheme--><font face="Garamond, Times New Roman, Times">
+			<p align="center"><em><strong><font face="Arial" size="4">
+			<marquee scrollamount="8" width="500">NOVIT&Agrave; !!!</marquee></font></strong></em><!--mstheme--></font></td>
+		</tr>
+	</table><!--mstheme--><font face="Garamond, Times New Roman, Times">
+</div>
+<p align="center"><font face="Arial"><big><em><big><strong>Co<span lang="it">s'&egrave;/Come 
+funziona</span>?<br>
+</strong></big></em></big>Ti &egrave; mai capitato un buzzer e un arduino fra le mani? 
+Hai mai voluto riprodurre la tua canzone preferita?<br>
+Se si, questo pu&ograve; essere il progetto per te! Con un po di passaggi ci riuscirai.
+<br>
+Questo consiste nel prendere un file MIDI (un file audio della tua canzone, vedi 
+spiegazione sotto) <br>
+e trasformarlo in un array di note compatibili con il codice di Arduino.</font></p>
+<!--msthemeseparator--><p align="center"><img src="../../../_themes/downtown/werhsepa.gif" width="300" height="10" alt="horizontal rule"></p>
+<p align="center"><font face="Arial"><span lang="it"><u><b><font size="5">D</font>OMANDE<font size="5">/R</font>ISPOSTE<br>
+</b></u><br>
+<i><font color="#00FFFF">Cos'&egrave; un file MIDI??<br>
+</font></i></span><font color="#00FF00" face="Arial"><i>Un file MIDI &egrave; 
+effettivamente un file audio, ma effettivamente contiene le istruzioni per far 
+suonare una certa canzone.<br>
+Ad esempio, se tu ascolti una canzone su un CD sentirai la voce del cantante, 
+gli strumenti musicali, riverbero etc..<br>
+Se ascolti la stessa canzone su file MIDI sentirai SOLAMENTE gli strumenti 
+musicali. <br>
+La musica la sta generando il tuo computer in quel momento, infatti cambia da 
+computer/computer o telefono/telefono..<br>
+Il tuo computer diventa l'orchestra che suona mediante un sintetizzatore!</i></font></font></p>
+<!--msthemeseparator--><p align="center"><img src="../../../_themes/downtown/werhsepa.gif" width="300" height="10" alt="horizontal rule"></p>
+<p align="center"><em><strong><font face="Arial" style="font-size: larger">
+Istruzioni - PREPARARE MIDI (PT.1)</font></strong></em><font face="Arial"><big><em><strong>:</strong></em></big><br>
+<br>
+1. Cerca su Google il file MIDI... puoi provare a cercare &quot;(titolocanzone) midi 
+download&quot;<br>
+SITI DOWNLOAD MIDI CONSIGLIATI
+<a href="http://www.vittoriain.it/basi_karaoke.htm">
+<img border="0" id="img2" src="buttons/button1A.jpg" height="20" width="100" alt="VITTORIAIN" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'buttons/button1B.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'buttons/button1A.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'buttons/button1C.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'buttons/button1B.jpg')" fp-style="fp-btn: Corporate 7" fp-title="VITTORIAIN"></a> 
+(suddivisi x artista)<br>
+2. Ottenuto il file controlla che si senta correttamente la melodia giusta.<br>
+3. Collegati al sito <a href="https://signalmidi.app/edit">
+<img border="0" id="img3" src="buttons/button1D.jpg" height="20" width="100" alt="SIGNALMIDI" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'buttons/button1E.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'buttons/button1D.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'buttons/button1F.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'buttons/button1E.jpg')" fp-style="fp-btn: Corporate 9" fp-title="SIGNALMIDI"></a> 
+e carica il tuo file MIDI.<br>
+4. Ad esclusione, rimuovi le tracce (gli strumenti) che non ti interessano, <br>
+lascia solo UNA MELODIA PRINCIPALE, altrimenti non funzioner&agrave;!!!<br>
+Puoi cercandole mutandole per sentire quella giusta, poi tasto DX -&gt; Delete 
+Track.<br>
+5. Esporta il file MIDI a UNA TRACCIA su File -&gt; Download MIDI File<font color="#FF0000"><span style="background-color: #FFFF00"><br>
+<i><b>ATTENZIONE!! Segnati i numeri di battuta da dove vuoi che parta e dove 
+vuoi che finisca.</b></i></span></font><i><b><br>
+</b></i>6. Collegati al sito
+<a href="https://melobytes.com/en/app/trim_measures">
+<img border="0" id="img4" src="buttons/button20.jpg" height="20" width="100" alt="MELOBYTES" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'buttons/button21.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'buttons/button20.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'buttons/button22.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'buttons/button21.jpg')" fp-style="fp-btn: Corporate 3" fp-title="MELOBYTES"></a> 
+e inserisci le battute di inizio e di fine, quindi scarica il file.<br>
+<br>
+</font><em><strong><font face="Arial" style="font-size: larger">Istruzioni - 
+CONVERTIRE MIDI (PT.2)</font></strong></em><font face="Arial"><big><em><strong>:<br>
+</strong></em></big>7. Assicurati di avere Python, (se non l'hai gi&agrave; installato,
+<a href="https://www.python.org/downloads/">
+<img border="0" id="img1" src="buttons/button14.jpg" height="20" width="100" alt="CLICCA QUI" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'buttons/button15.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'buttons/button14.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'buttons/button16.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'buttons/button15.jpg')" fp-style="fp-btn: Corporate 4; fp-orig: 0" fp-title="CLICCA QUI"></a>)<br>
+8. Apri il CMD, digita &quot;python (ilnomedelfiledellozip).py (nomedeltuomidiscaricato).midi&quot;<br>
+9. Invia, ti generer&agrave; un file .h! quelle sono le tue note musicali convertite 
+per arduino.!</font></p><!--msthemeseparator--><p align="center"><img src="../../../_themes/downtown/werhsepa.gif" width="300" height="10" alt="horizontal rule"></p>
+<p align="center">ok</p>
+<!--msthemeseparator--><p align="center"><img src="../../../_themes/downtown/werhsepa.gif" width="300" height="10" alt="horizontal rule"></p>
+<p align="center"><font face="Arial"><big><em><strong>Risultato<span lang="it"> 
+finale (audio/mpeg)</span>:<br>
+<span lang="it">ABBASSA IL VOLUME!</span><br>
+<br>
+&nbsp;<audio controls>
+    <source src="../../diy/suonsuptel/CAMPANELLA.MP3" type="audio/mpeg">
+</audio></strong></em></big></font></p>
+<div align="center">
+	<!--mstheme--></font><table border="1" width="618" height="55" cellspacing="1" bordercolordark="#000033" bordercolorlight="#000033">
+		<tr>
+			<td height="19" width="200" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times"><span lang="it">
+			<font face="Arial">SCH-</font></span><font face="Arial"><span style="font-weight: 400; font-style: normal">JMX102.JPEG</span></font><!--mstheme--></font></td>
+			<td height="19" width="200" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times"><font face="Arial">
+			<span style="font-weight: 400; font-style: normal">LDR.JPG</span></font><!--mstheme--></font></td>
+			<td height="19" width="200" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times"><font face="Arial">
+			<span style="font-weight: 400; font-style: normal">FINALE.JPEG</span></font><!--mstheme--></font></td>
+		</tr>
+		<tr>
+			<td height="18" width="200"><!--mstheme--><font face="Garamond, Times New Roman, Times">
+			<img border="0" src="../../diy/suonsuptel/SCH-JMX102.JPEG" width="200" height="150"><!--mstheme--></font></td>
+			<td height="18" width="200"><!--mstheme--><font face="Garamond, Times New Roman, Times">
+			<img border="0" src="../../diy/suonsuptel/LDR.JPG" width="200" height="150"><!--mstheme--></font></td>
+			<td height="18" width="200"><!--mstheme--><font face="Garamond, Times New Roman, Times">
+			<img border="0" src="../../diy/suonsuptel/FINALE.JPEG" width="200" height="150"><!--mstheme--></font></td>
+		</tr>
+		<tr>
+			<td height="18" width="200" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times"><font face="Arial">
+			<em style="font-style: normal"><strong style="font-weight: 400">
+			PCB1.JPEG</strong></em></font><!--mstheme--></font></td>
+			<td height="18" width="200" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times"><font face="Arial">
+			<span style="font-weight: 400; font-style: normal">PCB2.JPEG</span></font><!--mstheme--></font></td>
+			<td height="18" width="200" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times"><font face="Arial">
+			<span style="font-weight: 400; font-style: normal">ALIMENTAZ.JPEG</span></font><!--mstheme--></font></td>
+		</tr>
+		<tr>
+			<td height="18" width="200"><!--mstheme--><font face="Garamond, Times New Roman, Times">
+			<p align="center">
+			<img border="0" src="../../diy/suonsuptel/PCB1.JPEG" width="200" height="150"><!--mstheme--></font></td>
+			<td height="18" width="200"><!--mstheme--><font face="Garamond, Times New Roman, Times">
+			<p align="center">
+			<img border="0" src="../../diy/suonsuptel/PCB2.JPEG" width="200" height="150"><!--mstheme--></font></td>
+			<td height="18" width="200"><!--mstheme--><font face="Garamond, Times New Roman, Times">
+			<p align="center">
+			<img border="0" src="../../diy/suonsuptel/ALIMENTAZ.JPEG" width="200" height="150"><!--mstheme--></font></td>
+		</tr>
+	</table><!--mstheme--><font face="Garamond, Times New Roman, Times">
+<source src="../../../belladestate.mp3" type="audio/mpeg">
+  	<!--msthemeseparator--><p align="center"><img src="../../../_themes/downtown/werhsepa.gif" width="300" height="10" alt="horizontal rule"></p>
+<p align="center"><span lang="it"><em><strong>
+<font face="Arial" style="font-size: larger">Downloads:</font></strong></em></span></p>
+	<!--mstheme--></font><table border="1" width="606" height="1" bordercolordark="#000033" bordercolorlight="#000033">
+		<tr>
+			<td height="1" width="246" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times">
+			<p align="center"><font face="Arial"><span lang="it">
+			MANUALE PDF RELE' XY-LJ02</span></font><!--mstheme--></font></td>
+			<td height="1" width="155" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times">
+			<p align="center"><span lang="it"><font face="Arial">
+			INGLESE (originale)</font></span><!--mstheme--></font></td>
+			<td height="1" width="62" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times"><span lang="it"><font face="Arial">547Kb</font></span><!--mstheme--></font></td>
+			<td height="1" width="115" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times"><span lang="it"><font face="Arial">
+			<a href="../../diy/suonsuptel/ENG_XY-LJ02.PDF" target="_blank"><button>Visualizza PDF</button></a>
+			</font></span><!--mstheme--></font></td>
+		</tr>
+		<tr>
+			<td height="1" width="246" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times">
+			<p align="center"><font face="Arial"><span lang="it">
+			MANUALE PDF RELE' XY-LJ02</span></font><!--mstheme--></font></td>
+			<td height="1" width="155" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times">
+			<p align="center"><font face="Arial">
+			ITALIANO (tradotto)</font><!--mstheme--></font></td>
+			<td height="1" width="62" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times"><font face="Arial">378Kb</font><!--mstheme--></font></td>
+			<td height="1" width="115" align="center"><!--mstheme--><font face="Garamond, Times New Roman, Times"><span lang="it"><font face="Arial">
+			<a href="../../diy/suonsuptel/ITA_XY-LJ02.PDF" target="_blank"><button>Visualizza PDF</button></a>
+			</font></span><!--mstheme--></font></td>
+		</tr>
+	</table><!--mstheme--><font face="Garamond, Times New Roman, Times">
+</div>
+<!--msthemeseparator--><p align="center"><img src="../../../_themes/downtown/werhsepa.gif" width="300" height="10" alt="horizontal rule"></p>
+<p align="center"><font face="Arial"><em><strong><big><big>Grazie!</big></big></strong></em></font></p>
+<!--msthemeseparator--><p align="center"><img src="../../../_themes/downtown/werhsepa.gif" width="300" height="10" alt="horizontal rule"></p><i><b>
+<p align="center"><font face="Arial">Il materiale pu&ograve; essere usato liberamente 
+per scopi personali o didattici, <br>
+ma non pu&ograve; essere redistribuito o ripubblicato altrove.</font></b></i></p>
+<p align="center"><font face="Arial"><i><b>Copyright &copy; toor10 2025<span lang="it">-2026</span><br>
+Tutti i diritti sono riservati.</b></i> </font></p>
+<blink>
+<p align="center"><font face="Arial"><em><strong>ultimo aggiornamento:
+<!--webbot bot="Timestamp" s-type="EDITED" s-format="%B %Y" startspan -->settembre 2026<!--webbot bot="Timestamp" i-checksum="30954" endspan --></strong></em>
+</font></p>
+<center><!-- Inizio Codice ShinyStat -->
+<script src="//codice.shinystat.com/cgi-bin/getcod.cgi?USER=SS-49454459-c931a"></script>
+<noscript><a href="https://www.shinystat.com/it/" target="_top">
+<img src="//www.shinystat.com/cgi-bin/shinystat.cgi?USER=SS-49454459-c931a" alt="Statistiche web" style="border:0px" /></a>
+</noscript>
+<!-- Fine Codice ShinyStat --></center>
+<p align="center">&nbsp;<img src="../../../altro/images/frontpag.gif" border="0" WIDTH="88" HEIGHT="31"><img border="0" src="../../../img/made_with_windows.gif" width="88" height="31"><img border="0" src="../../../img/imaginate.gif" width="88" height="31"><img border="0" src="../../../img/bestviewed.gif" width="88" height="31"><img border="0" src="../../../img/best_viewed_with_eyes.gif" width="88" height="31"><img border="0" src="../../../img/eyes.gif" width="88" height="31"><img border="0" src="../../../img/cookie.gif" width="88" height="31"><img border="0" src="../../../img/bookmark_this_page.gif" width="88" height="31"></blink></p>
+
+<!--mstheme--></font><!--msnavigation--></td></tr><!--msnavigation--></table></body>
+
+</html>
